@@ -1,0 +1,25 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "Web workflow - NPM, SASS, Gulp, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggarantai/workflow.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp",
+    "Git"
+  ],
+  "author": "Regga Rantai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggarantai/workflow/issues"
+  },
+  "homepage": "https://github.com/reggarantai/workflow#readme"
+}

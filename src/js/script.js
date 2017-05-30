@@ -1,3 +1,7 @@
+global.jQuery = require('jquery');
+bootstrap = require('bootstrap');
+mustache = require('mustache');
+
 jQuery(document).ready(function(){
-  jQuery('body').css('background-color','#444444');
+  alert('Hey Ho Let\'s go');
 });

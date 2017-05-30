@@ -13278,7 +13278,7 @@ bootstrap = require('bootstrap');
 mustache = require('mustache');
 
 jQuery(document).ready(function(){
-  alert('Hey Ho Let\'s go');
+  //alert('Hey Ho Let\'s go');
 });
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})

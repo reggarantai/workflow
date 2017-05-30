@@ -1,13 +1,35 @@
 $black: #000000;
 $white: #FFFFFF;
-$green: green;
+$liteblue: lightblue;
+$headerColor: #333333;
+$subHeaderColor: #555555;
 body{
+  padding: 0;
+  margin: 0 auto;
   background-color: $white
 }
 h1{
-  color: $black
+  color: $headerColor
 }
 h1:hover{
-  color: $green;
-  transition: color 1s ease
+  color: $liteblue;
+  transition: color 1s ease-in-out
+}
+h3{
+  color: $subHeaderColor;
+}
+.margin-bottom-60px{
+  margin-bottom: 60px
+}
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.carousel .item{
+  height: 350px;
+  background-size: cover;
+  background-position: center center
+}
+footer{
+  padding-bottom: 30px
 }

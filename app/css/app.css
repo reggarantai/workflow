@@ -6756,4 +6756,4 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-body{background-color:#fff}h1{color:#000}h1:hover{color:green;-webkit-transition:color 1s ease;transition:color 1s ease}
+body{padding:0;margin:0 auto;background-color:#fff}h1{color:#333}h1:hover{color:#add8e6;-webkit-transition:color 1s ease-in-out;transition:color 1s ease-in-out}h3{color:#555}.margin-bottom-60px{margin-bottom:60px}.navbar{margin-bottom:0;border-radius:0}.carousel .item{height:350px;background-size:cover;background-position:center center}footer{padding-bottom:30px}

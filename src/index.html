@@ -1,50 +1,106 @@
 <!-- partial:partial/_header.html -->
 <!-- partial -->
-    <div class="container-fluid margin-bottom-60px">
-      <div class="row">
+<section class="margin-top-50px">
+	<article>
+    <div class="margin-bottom-60px">
 
-            <div id="slider" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#slider" data-slide-to="0" class="active"></li>
-                <li data-target="#slider" data-slide-to="1"></li>
-                <li data-target="#slider" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="item active" style="background-image:url('http://placehold.it/1200x550/555/aaa?text=image%20cover%201')"></div>
-                <div class="item" style="background-image:url('http://placehold.it/1200x550/666/aaa?text=image%20cover%202')"></div>
-                <div class="item" style="background-image:url('http://placehold.it/1200x550/777/aaa?text=image%20cover%203')"></div>
-              </div>
-              <a href="#slider" class="left carousel-control" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              </a>
-              <a href="#slider" class="right carousel-control" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              </a>
-            </div>
 
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div id="gallery" class="gallery">
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image:url('http://placehold.it/1200x550/555/aaa?text=image%20cover%201')"></div>
+            <div class="carousel-item" style="background-image:url('http://placehold.it/1200x550/555/aaa?text=image%20cover%202')"></div>
+            <div class="carousel-item" style="background-image:url('http://placehold.it/1200x550/555/aaa?text=image%20cover%203')"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <script id="template" type="x-tmpl-mustache">
+    </div>
+  </article>
+
+<div class="container">
+  <div class="row featurette align-items-center">
+    <div class="col-md align">
+      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md">
+      <img class="featurette-image img-fluid mx-auto" src="http://placehold.it/570x300/eee/aaa" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette align-items-center">
+    <div class="col-md push-md-6">
+      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md pull-md-6">
+      <img class="featurette-image img-fluid mx-auto" src="http://placehold.it/570x300/eee/aaa" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+</div>
+
+  <article class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center">
+            <img src="http://placehold.it/200/eee/aaa" class="img-thumbnail rounded-circle margin-bottom-15px"/>
+            <h4>Pulvinar lacinia</h4>
+            <p>Curabitur non consectetur eros, pulvinar lacinia magna Praesent vulputate tortor</p>
+          </div>
+          <div class="col-sm text-center">
+            <img src="http://placehold.it/200/eee/aaa" class="img-thumbnail rounded-circle margin-bottom-15px"/>
+            <h4>Lobortis et sapien</h4>
+            <p>Dignissim ut egestas. Nullam cursus augue sed consequat bibendum</p>
+          </div>
+          <div class="col-sm text-center">
+            <img src="http://placehold.it/200/eee/aaa" class="img-thumbnail rounded-circle margin-bottom-15px"/>
+            <h4>Viverra vehicula</h4>
+            <p>Pulvinar lacinia magna Praesent vulputate tortor, Curabitur non consectetur eros</p>
+          </div>
+          <div class="col-sm text-center">
+            <img src="http://placehold.it/200/eee/aaa" class="img-thumbnail rounded-circle margin-bottom-15px"/>
+            <h4>Magna urna</h4>
+            <p>Nullam cursus augue sed consequat bibendum. Dignissim ut egestas</p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+      </div>
+  </article>
+
+	<article>
+    <div class="container">
+      <div id="galleryz" class="row gallery">
+        <script id="templatez" type="x-tmpl-mustache">
           {{#gallery}}
             <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                <!--<img src="img/{{image}}"/>-->
-                <img src="http://placehold.it/480x280/666/aaa?text=image"/>
-              </div>
+            {{n}}
+              <img src="{{image}}" class="img-fluid margin-bottom-15px" alt="Responsive image"/>
               <div class="caption">
-                <h4 class="text-center">{{destiny}}</h4><br>
+                <h4>{{title}}</h4>
               </div>
+              <p>{{description}}</p><br>
             </div>
           {{/gallery}}
         </script>
       </div>
     </div>
+  </article>
+</section>
 
 <!-- partial:partial/_footer.html -->
 <!-- partial -->

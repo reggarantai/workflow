@@ -1,0 +1,15 @@
+h1,h2,h3,h4,h5,h6{
+  //font-family: $fontRaleway;
+  font-weight: bold;
+  color: $subHColor;
+}
+h1{
+  color: $hColor;
+}
+h1:hover{
+  color: $liteblue;
+  transition: color 1s ease-in-out
+}
+p{
+  color: $pColor
+}

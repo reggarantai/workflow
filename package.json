@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/reggarantai/workflow#readme",
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",

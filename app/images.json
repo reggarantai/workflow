@@ -1,0 +1,39 @@
+{
+	"gallery": [
+    {"title":"Maecenas nulla est, consectetur in fringilla",
+			"description":"bibendum eu neque. Proin eu erat varius, tincidunt dui vitae, viverra velit. Suspendisse in libero sed dui tincidunt mattis. Nunc pulvinar magna eu dui tincidunt faucibus.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+    {"title":"Duis quis lectus non enim cursus imperdiet",
+			"description":"Curabitur non consectetur eros, pulvinar lacinia magna Praesent vulputate tortor ut dignissim egestas. Nullam cursus augue sed consequat bibendum. ",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Phasellus sed scelerisque libero",
+			"description":"Fusce molestie eu sapien vitae ultricies. Phasellus consequat arcu volutpat sem vehicula iaculis. Aliquam dictum mi quis ex fringilla luctus.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Vivamus iaculis dui libero",
+			"description":"Scelerisque ante ullamcorper vel. Curabitur lacus est, lobortis et sapien quis, viverra vehicula urna. Mauris sagittis faucibus nunc at fringilla.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Morbi fringilla congue viverra",
+			"description":"Suspendisse dignissim, mauris vel iaculis fringilla, est lacus tempor enim, at lacinia arcu tellus id purus. Vestibulum a ligula cursus eros iaculis commodo in nec libero.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+	  },
+		{"title":"Aenean consectetur efficitur cursus",
+			"description":"Mauris diam ex, porttitor in elit sed, vulputate viverra nisi. .",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Duis elementum diam non fermentum lacinia",
+			"description":"Nam vitae pretium mauris. Curabitur consectetur nibh erat, feugiat euismod orci elementum ut. Sed mattis libero vel turpis accumsan tincidunt.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Mauris tristique urna dolor, sit amet faucibus",
+			"description":"Fusce orci lacus, ultricies in felis quis, dapibus ullamcorper nisl. Ut elit lacus, accumsan ac augue quis, blandit porta urna. Morbi aliquet eleifend lectus eu egestas.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    },
+		{"title":"Integer dictum sapien sit amet mi malesuada faucibus",
+			"description":"Cras luctus nulla eget posuere molestie. Duis volutpat nec dolor sed eleifend. Phasellus interdum turpis ut est posuere maximus. Etiam ac est suscipit, sollicitudin neque eu, malesuada odio.",
+     "image": "http://placehold.it/350x220/eee/aaa"
+    }
+]}
